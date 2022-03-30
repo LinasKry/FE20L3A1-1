@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+body {
+  background-color: #ffe4c4;
+  background-image: url("lk1.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+div {
+  /*width: 1300px;*/
+  max-width: 1200px;
+  min-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(59, 36, 4);
+}
+p {
+  text-align: justify;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  border: 3px solid rgb(146, 138, 138);
+  background-color: #f0ffff33;
+  margin: auto;
+  /*width: 100%;*/
+  max-width: 1150px;
+  margin-bottom: 10px;
+}
+
+.img {
+  min-height: 100px;
+  margin: auto;
+  border: 3px rgb(146, 138, 138) solid;
+  background-image: url("relax1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  /*width: 100%;*/
+  max-width: 1150px;
+}
+.img:hover {
+  background-image: url("relax2.jpg");
+}
